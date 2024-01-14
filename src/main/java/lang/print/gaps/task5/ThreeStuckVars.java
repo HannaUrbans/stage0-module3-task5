@@ -8,7 +8,10 @@ public class ThreeStuckVars {
         second=10;
         int third;
         third=100;
-        System.out.println(first+""+second+""+third);
+        String a = String.valueOf(first);
+        String b= String.valueOf(second);
+        String c = String.valueOf(third);
+        System.out.println(a+b+c);
     }
 }
 
